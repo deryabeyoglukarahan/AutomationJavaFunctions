@@ -14,6 +14,7 @@ public class ArrayListDemo {
         System.out.println("listemizde Mehmet ismi: " + isimListesi.contains("Mehmet"));
         isimListesi.add("Elif");
         isimListesi.add("Eda");
+        isimListesi.add("Birsu");
         System.out.println(isimListesi);
         System.out.println("Eda isminin sırası:" + isimListesi.indexOf("Eda"));
         System.out.println(isimListesi.isEmpty());
